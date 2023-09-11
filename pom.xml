@@ -105,7 +105,7 @@
     <protoc.version>2.5.0</protoc.version>
     <commons-io.version>2.11.0</commons-io.version>
     <commons-lang.version>3.8</commons-lang.version>
-    <commons-csv.version>1.0</commons-csv.version>
+    <commons-csv.version>1.10.0</commons-csv.version>
     <commons-compress.version>1.21</commons-compress.version>
     <sqlline.version>1.9.0</sqlline.version>
     <commons-configuration2.version>2.1.1</commons-configuration2.version>
@@ -154,7 +154,7 @@
     <it.failIfNoSpecifiedTests>false</it.failIfNoSpecifiedTests>
     <surefire.failIfNoSpecifiedTests>false</surefire.failIfNoSpecifiedTests>
     <!-- Empty argument when code coverage is deactivated -->
-    <jacocoArgLine></jacocoArgLine>
+    <jacocoArgLine/>
 
     <!-- Set default encoding so multi-byte tests work correctly on the Mac -->
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -243,7 +243,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore />
+                    <ignore/>
                   </action>
                 </pluginExecution>
               </pluginExecutions>
