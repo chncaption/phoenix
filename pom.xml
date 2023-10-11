@@ -125,7 +125,7 @@
     <zookeeper.version>3.5.7</zookeeper.version>
     <curator.version>4.2.0</curator.version>
     <jcodings.version>1.0.55</jcodings.version>
-    <jetty.version>9.4.46.v20220331</jetty.version>
+    <jetty.version>9.4.53.v20231009</jetty.version>
     <javax.servlet-api.version>3.1.0</javax.servlet-api.version>
     <!-- Test Dependencies -->
     <mockito.version>1.10.19</mockito.version>
@@ -154,7 +154,7 @@
     <it.failIfNoSpecifiedTests>false</it.failIfNoSpecifiedTests>
     <surefire.failIfNoSpecifiedTests>false</surefire.failIfNoSpecifiedTests>
     <!-- Empty argument when code coverage is deactivated -->
-    <jacocoArgLine></jacocoArgLine>
+    <jacocoArgLine/>
 
     <!-- Set default encoding so multi-byte tests work correctly on the Mac -->
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -243,7 +243,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore />
+                    <ignore/>
                   </action>
                 </pluginExecution>
               </pluginExecutions>
