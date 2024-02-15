@@ -73,7 +73,7 @@
     <!-- Hadoop and Hbase-thirdparty version -->
     <!-- These are expected to be overridden to conform to cluster versions
     along with hbase.version (defined in profiles) -->
-    <hadoop.version>3.1.4</hadoop.version>
+    <hadoop.version>3.3.0</hadoop.version>
 
     <phoenix.thirdparty.version>2.0.0</phoenix.thirdparty.version>
     <hbase.suffix>hbase-${hbase.profile}</hbase.suffix>
@@ -154,7 +154,7 @@
     <it.failIfNoSpecifiedTests>false</it.failIfNoSpecifiedTests>
     <surefire.failIfNoSpecifiedTests>false</surefire.failIfNoSpecifiedTests>
     <!-- Empty argument when code coverage is deactivated -->
-    <jacocoArgLine></jacocoArgLine>
+    <jacocoArgLine/>
 
     <!-- Set default encoding so multi-byte tests work correctly on the Mac -->
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -243,7 +243,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore />
+                    <ignore/>
                   </action>
                 </pluginExecution>
               </pluginExecutions>
@@ -1620,7 +1620,7 @@
       <properties>
         <hbase.profile>2.5</hbase.profile>
         <hbase.compat.version>2.5.0</hbase.compat.version>
-        <hadoop.version>3.2.3</hadoop.version>
+        <hadoop.version>3.3.0</hadoop.version>
         <hbase.version>${hbase-2.5.runtime.version}</hbase.version>
         <tephra.hbase.compat.version>2.4</tephra.hbase.compat.version>
       </properties>
