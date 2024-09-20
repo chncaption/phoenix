@@ -101,7 +101,7 @@
     <slf4j.version>1.7.36</slf4j.version>
     <!-- com.google repo will be used except on Aarch64 platform. -->
     <protobuf.group>com.google.protobuf</protobuf.group>
-    <protobuf-java.version>2.5.0</protobuf-java.version>
+    <protobuf-java.version>3.25.5</protobuf-java.version>
     <protoc.version>2.5.0</protoc.version>
     <commons-io.version>2.11.0</commons-io.version>
     <commons-lang.version>3.8</commons-lang.version>
@@ -154,7 +154,7 @@
     <it.failIfNoSpecifiedTests>false</it.failIfNoSpecifiedTests>
     <surefire.failIfNoSpecifiedTests>false</surefire.failIfNoSpecifiedTests>
     <!-- Empty argument when code coverage is deactivated -->
-    <jacocoArgLine></jacocoArgLine>
+    <jacocoArgLine/>
 
     <!-- Set default encoding so multi-byte tests work correctly on the Mac -->
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -243,7 +243,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore />
+                    <ignore/>
                   </action>
                 </pluginExecution>
               </pluginExecutions>
