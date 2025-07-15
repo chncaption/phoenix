@@ -73,7 +73,7 @@
     <!-- Hadoop and Hbase-thirdparty version -->
     <!-- These are expected to be overridden to conform to cluster versions
     along with hbase.version (defined in profiles) -->
-    <hadoop.version>3.1.4</hadoop.version>
+    <hadoop.version>3.3.0</hadoop.version>
 
     <phoenix.thirdparty.version>2.0.0</phoenix.thirdparty.version>
     <hbase.suffix>hbase-${hbase.profile}</hbase.suffix>
@@ -104,7 +104,7 @@
     <protobuf-java.version>2.5.0</protobuf-java.version>
     <protoc.version>2.5.0</protoc.version>
     <commons-io.version>2.11.0</commons-io.version>
-    <commons-lang.version>3.8</commons-lang.version>
+    <commons-lang.version>3.18.0</commons-lang.version>
     <commons-csv.version>1.0</commons-csv.version>
     <commons-compress.version>1.21</commons-compress.version>
     <sqlline.version>1.9.0</sqlline.version>
@@ -154,7 +154,7 @@
     <it.failIfNoSpecifiedTests>false</it.failIfNoSpecifiedTests>
     <surefire.failIfNoSpecifiedTests>false</surefire.failIfNoSpecifiedTests>
     <!-- Empty argument when code coverage is deactivated -->
-    <jacocoArgLine></jacocoArgLine>
+    <jacocoArgLine/>
 
     <!-- Set default encoding so multi-byte tests work correctly on the Mac -->
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -243,7 +243,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore />
+                    <ignore/>
                   </action>
                 </pluginExecution>
               </pluginExecutions>
@@ -1575,7 +1575,7 @@
       <properties>
         <hbase.profile>2.4</hbase.profile>
         <hbase.compat.version>2.4.1</hbase.compat.version>
-        <hbase.version>${hbase-2.4.runtime.version}</hbase.version>
+        <hbase.version>2.5.11-hadoop3</hbase.version>
       </properties>
     </profile>
     <profile>
@@ -1590,7 +1590,7 @@
       <properties>
         <hbase.profile>2.4.0</hbase.profile>
         <hbase.compat.version>2.4.0</hbase.compat.version>
-        <hbase.version>${hbase-2.4.0.runtime.version}</hbase.version>
+        <hbase.version>2.5.11-hadoop3</hbase.version>
       </properties>
     </profile>
     <profile>
@@ -1605,7 +1605,7 @@
       <properties>
         <hbase.profile>2.4</hbase.profile>
         <hbase.compat.version>2.4.1</hbase.compat.version>
-        <hbase.version>${hbase-2.4.runtime.version}</hbase.version>
+        <hbase.version>2.5.11-hadoop3</hbase.version>
       </properties>
     </profile>
     <profile>
@@ -1620,8 +1620,8 @@
       <properties>
         <hbase.profile>2.5</hbase.profile>
         <hbase.compat.version>2.5.0</hbase.compat.version>
-        <hadoop.version>3.2.3</hadoop.version>
-        <hbase.version>${hbase-2.5.runtime.version}</hbase.version>
+        <hadoop.version>3.3.0</hadoop.version>
+        <hbase.version>2.5.11-hadoop3</hbase.version>
         <tephra.hbase.compat.version>2.4</tephra.hbase.compat.version>
       </properties>
     </profile>
